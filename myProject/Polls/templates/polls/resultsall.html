@@ -1,0 +1,16 @@
+{% extends 'polls/base.html' %}
+{% block pageResultsall%}
+	class='active'
+{%endblock%}
+{% block body %}
+{% for question in question_list%}
+<div  id="resultcontent">
+	<h1 id="questionhead">{{ question.question_text }}</h1>
+	<ul>
+		{% for choice in question.choice_set.all %}
+			<li>{{ choice.choice_text }} -- {{choice.votes}} vote{{choice.votes|pluralize}}</li>
+		{% endfor %}
+	</ul>
+</div>
+{% endfor %}
+{% endblock %}
