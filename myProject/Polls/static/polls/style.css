@@ -1,0 +1,94 @@
+body{
+	color:black;
+	//background:url(https://images.pexels.com/photos/8263/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-image: -webkit-linear-gradient(left, #720e9e 0, #dd4b39 100%);
+    background-image: -o-linear-gradient(left, #720e9e 0, #dd4b39 100%);
+    background-image: linear-gradient(to right, #720e9e 0, #dd4b39 100%);
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-brand{
+	font-family: 'Pacifico',cursive;
+	font-size: 30px;
+}
+.heading{
+	margin-right: 15px;
+}
+#questionhead{
+	text-decoration: underline;
+}
+li a:hover{
+	text-decoration: none;
+	color:black;
+}
+.container{
+	margin-left:auto;
+	margin-top:0px;
+	min-height:85vh;
+	//background:white;
+	//padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background:#F3E0DC;
+	border:0px solid;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+	border-top:0px;
+}
+.list_item{
+	display: block;
+	width:100%;
+	text-decoration: none;
+	background: #E98074;
+	margin-bottom: 10px;
+	padding: 30px;
+	//border-radius: 20px;
+	list-style: none;
+}
+.list_item_attr{
+	float:right;
+	margin-right: 8px;
+	padding: 3px;
+	border:1px solid #F3E0DC;
+	border-radius: 5px;
+
+}
+.list_item a{
+	color: white;
+	list-style: none;
+	overflow-x:auto;
+	display: block; 
+}
+.list_item:hover{
+	background-color: tomato;
+	text-decoration: none;
+}
+.navbar{
+	border-radius: 0px;
+	margin-bottom: 10px;
+	background:rgba(0,0,0,0.6);
+}
+#question-form{
+	align-content: center;
+	text-align: center;
+
+}
+#resultcontent{
+	padding:10px;
+	background-color: white;
+	margin-bottom: 5px;
+	overflow-x: auto;
+}
+#ham{
+	color:white;
+}
+.detailpage{
+	background: white;
+	padding: 15px;
+	list-style: none;
+}
+#add-choice{
+	float:right;
+}
+.list{
+	padding: 15px;
+}
