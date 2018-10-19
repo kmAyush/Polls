@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>{% block title%} Polls {% endblock %}</title>
+		<!-- Import library then Css file -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		{% load staticfiles %}
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
+		<link rel="stylesheet" href="{% static 'polls/style.css'%}">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+					<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" style="color: grey;"></span>
+				</button>
+				<a class="navbar-brand" href="{% url 'polls:index' %}" id="ham">Polls</a>
+			</div>
+			<div class="collapse navbar-collapse" id="topNavBar">
+				<ul class="nav navbar-nav navbar-right">
+					<li {% block pageCreatePoll%}{% endblock%}>
+						<a href="{% url 'polls:question-add' %}"><span class="glyphicon glyphicon-plus"></span>&nbsp; Create Poll</a>
+					</li>
+					<li {% block pageResultsall%}{% endblock%}>
+						<a href="{% url 'polls:resultsall' %}"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>&nbsp; Results</a>
+					</li>
+					<li><a href="kmayush.github.com"><span class="social social-github"></span></a></li>
+				</ul>
+		</nav>
+		<div class="container">
+		<div id="box">
+			{% block body %}
+			{% endblock %}
+		</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
