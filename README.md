@@ -1,6 +1,6 @@
 # Polls App
-Purpose - This project is to learn django by creating POLLS app.
-It is app to create poll and 
+Purpose - This project is created to learn django.
+It is app to create poll and submit vote.
 
 Current Status - Completed
 # Instruction to install - 
