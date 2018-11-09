@@ -9,8 +9,22 @@ Run these commands in terminal :-
 2. cd Polls/myProject
 3. py manage.py runserver
 
-Run 127.0.0.1:8080 on Web browser.
 # Features
-will be added soon
+1. Multiple browser platform.
+2. Data is managed in django inbuilt database.
+3. User can add question and choices.
+4. Frontend work had been done to provide better UI.
+5. Question are editable.
+
 # How to use this application
-will be added soon
+Run 127.0.0.1:8000 on Web browser.
+
+To add question, Click on 'Add Question' button.
+
+To add choice, Click on 'Add Choice' button.
+
+To delete question, Click on 'Trash' button.
+
+To view result of all question, Cick on 'Result' button in navigation bar.
+
+To edit question, click on 'Edit Question' button. 
