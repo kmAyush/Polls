@@ -19,12 +19,8 @@ Run these commands in terminal :-
 # How to use this application
 Run 127.0.0.1:8000 on Web browser.
 
-To add question, Click on 'Add Question' button.
-
-To add choice, Click on 'Add Choice' button.
-
-To delete question, Click on 'Trash' button.
-
-To view result of all question, Cick on 'Result' button in navigation bar.
-
-To edit question, click on 'Edit Question' button. 
+* To add question, Click on 'Add Question' button.
+* To add choice, Click on 'Add Choice' button.
+* To delete question, Click on 'Trash' button.
+* To view result of all question, Cick on 'Result' button in navigation bar.
+* To edit question, click on 'Edit Question' button. 
