@@ -7,7 +7,10 @@ Current Status - Completed
 Run these commands in terminal :-
 1. git clone https://github.com/kmAyush/Polls
 2. cd Polls/myProject
-3. py manage.py runserver
+3. py manage.py makemigrations
+4. py manage.py migrate
+5. py manage.py runserver
+6. Run 127.0.0.1:8000 on Web browser
 
 # Features
 1. Multiple browser platform.
@@ -17,7 +20,6 @@ Run these commands in terminal :-
 5. Question are editable.
 
 # How to use this application
-Run 127.0.0.1:8000 on Web browser.
 
 * To add question, Click on 'Add Question' button.
 * To add choice, Click on 'Add Choice' button.
